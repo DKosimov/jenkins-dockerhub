@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Vakhob/jenkins-dockerhub.git"
+    "url": "git+https://git@github.com:DKosimov/jenkins-dockerhub.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Vakhob/jenkins-dockerhub/issues"
+    "url": "https://git@github.com:DKosimov/jenkins-dockerhub/issues"
   },
-  "homepage": "https://github.com/Vakhob/jenkins-dockerhub#readme",
+  "homepage": "https://git@github.com:DKosimov/jenkins-dockerhub#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
