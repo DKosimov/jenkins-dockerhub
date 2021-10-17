@@ -1,14 +1,14 @@
 pipeline {
     agent { label 'master' }
     environment {
-        DOCKERHUB_CREDENTIALS=credentials('dockerhub-vakhobdevops')
+        DOCKERHUB_CREDENTIALS=credentials('dockerhub-dkosimov')
     }
 
     stages {
 
         stage('Checkout') {
             steps{
-                git branch: 'main', url: 'git@github.com:Vakhob/jenkins-dockerhub.git'
+                git branch: 'main', url: 'git@github.com:DKosimov/jenkins-dockerhub.git'
             }
         }
 
